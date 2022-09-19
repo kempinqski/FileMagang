@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8">
+    <title>HCIS</title>
+    <link rel="icon" href="images/kpn.ico" type="image/icon">
+    <link rel="stylesheet" href="style.css">
+    <!-- Google Font -->
+    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+    <!-- Boxiocns CDN Link -->
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   </head>
+<body>
+    <!-- Sidebar Start -->
+    <div class="sidebar">
+        <div class="logo-details">
+            <a href="index.html"><img src="images/kpn.png" alt="" style="height: 40px; width: 40px; margin-left: 10px;"></a>
+            <span class="logo_name" style="margin-left: 10px;">HCIS</span>
+        </div>
+        <ul class="nav-links">
+        <li>
+            <a href="#">
+                <i class="bi bi-people-fill"></i>
+            <span>Employee Data</span>
+            </a>
+            <ul class="sub-menu blank">
+            <li><a href="#">Employee Data</a></li>
+            </ul>
+        </li>
+        <li>
+            <a href="#">
+                <i class="bi bi-ticket"></i>
+                <span>Ticket</span>
+            </a>
+            <ul class="sub-menu blank">
+            <li><a href="#">Ticket</a></li>
+            </ul>
+        </li>
+        <li>
+            <a href="#">
+            <i class='bi bi-building' ></i>
+            <span>Hotel</span>
+            </a>
+            <ul class="sub-menu blank">
+            <li><a href="#">Hotel</a></li>
+            </ul>
+        </li>
+        <li>
+            <div class="iocn-link">
+            <a href="#">
+                <i class="bi bi-file-text"></i>
+                <span>Form</span>
+            </a>
+            <i class='bx bxs-chevron-down arrow' ></i>
+            </div>
+            <ul class="sub-menu">
+            <li><a href="#">Approval</a></li>
+            <li><a href="#">Submission</a></li>
+            <li><a href="#">Overtime</a></li>
+            </ul>
+        </li>
+        <li>
+            <a href="#">
+            <i class='bi bi-calendar-date' ></i>
+            <span>Leave Planning</span>
+            </a>
+            <ul class="sub-menu blank">
+            <li><a href="#">Leave Planning</a></li>
+            </ul>
+        </li>
+        <li>
+            <a href="#">
+            <i class="bi bi-person-lines-fill"></i>
+            <span>Contact List</span>
+            </a>
+            <ul class="sub-menu blank">
+            <li><a href="#">Contact List</a></li>
+            </ul>
+        </li>
+        <li>
+            <a href="#">
+            <i class="bi bi-ticket-detailed"></i>
+            <span>Parking</span>
+            </a>
+            <ul class="sub-menu blank">
+            <li><a href="#">Parking</a></li>
+            </ul>
+        </li>
+        <li class="log_out">
+            <a href="signin.html">
+              <i class='bx bx-log-out'></i>
+              <span>Log out</span>
+            </a>
+          </li>
+        </ul>
+    </div>
+    <!-- Sidebar end-->
+
+    <!-- Home Section -->
+    <section class="home-section">
+        <!-- Navbar Start-->
+        <nav>
+        <div class="dropdown_left">
+            <i class='bx bxs-user-circle dropbtn'></i>
+            <div class="dropdown-content">
+                <a href="edit_profile.html">Profile</a>
+                <a href="#">Setting</a>
+            </div>
+        </div> 
+          <div class="sidebar-button">
+            <i class='bx bx-menu sidebarBtn'></i>
+          </div>
+          <div class="input-group">
+            <input type="text" class="form-control" placeholder="Search...">
+            <div class="input-group-append">
+                <button class="btn" type="submit">
+                    <i class="bi bi-search" style="font-size: 15px;"></i>
+                </button>
+            </div>
+        </div>
+        <div class="dropdown">
+            <i class='bx bxs-user-circle dropbtn'></i>
+            <div class="dropdown-content">
+                <a href="edit_profile.html">Profile</a>
+                <a href="#">Setting</a>
+            </div>
+        </div> 
+        </nav>
+        <!-- Navbar End -->
+
+        <!-- Card Start -->
+        <section class="container">
+            <div class="card card-1">
+                <button type="button" class="button btn1" style="background-color: #B73431;">Primary</button>
+                <button type="button" class="button btn2" style="background-color: #B73431;">Primary</button>
+                <button type="button" class="button btn3" style="background-color: #B73431;">Primary</button>
+                <button type="button" class="button btn2" style="background-color: #B73431;">Primary Hover</button>
+                <button type="button" class="button btn3 disabled" style="background-color: #B73431;">Primary Disabled</button>
+            </div>
+            <div class="card card-2">
+                <button type="button" class="button btn1" style="background-color: #E6E3DA;">Secondary</button>
+                <button type="button" class="button btn2" style="background-color: #E6E3DA;">Secondary</button>
+                <button type="button" class="button btn3" style="background-color: #E6E3DA;">Secondary</button>
+                <button type="button" class="button btn2" style="background-color: #E6E3DA;">Secondary Hover</button>
+                <button type="button" class="button btn3 disabled" style="background-color: #E6E3DA;">Secondary Disabled</button>
+            </div>
+            <div class="card card-3">
+                <button type="button" class="button btn1" style="background-color: #28a745;">Success</button>
+                <button type="button" class="button btn2" style="background-color: #28a745;">Success</button>
+                <button type="button" class="button btn3" style="background-color: #28a745;">Success</button>
+                <button type="button" class="button btn2" style="background-color: #28a745;">Success Hover</button>
+                <button type="button" class="button btn3 disabled" style="background-color: #28a745;">Success Disabled</button>
+            </div>
+            <div class="card card-4">
+                <button type="button" class="button btn1" style="background-color: #dc3545;">Danger</button>
+                <button type="button" class="button btn2" style="background-color: #dc3545;">Danger</button>
+                <button type="button" class="button btn3" style="background-color: #dc3545;">Danger</button>
+                <button type="button" class="button btn2" style="background-color: #dc3545;">Danger Hover</button>
+                <button type="button" class="button btn3 disabled" style="background-color: #dc3545;">Danger Disabled</button>
+            </div>
+            <div class="card card-5">
+                <button type="button" class="button btn1" style="background-color: #ffc108;">Warning</button>
+                <button type="button" class="button btn2" style="background-color: #ffc108;">Warning</button>
+                <button type="button" class="button btn3" style="background-color: #ffc108;">Warning</button>
+                <button type="button" class="button btn2 hover" style="background-color: #ffc108;">Warning Hover</button>
+                <button type="button" class="button btn3 disabled" style="background-color: #ffc108;">Dark</button>
+            </div>  
+            <div class="card card-6">
+                <button type="button" class="button btn1" style="background-color: #158396;">Info</button>
+                <button type="button2" class="button btn2" style="background-color: #158396;">Info</button>
+                <button type="button3" class="button btn3" style="background-color: #158396;">Info</button>
+                <button type="button2" class="button btn2 hover" style="background-color: #158396;">Info Hover</button>
+                <button type="button2" class="button btn3 disabled" style="background-color: #158396;">Info Disabled</button>
+            </div>  
+            <div class="card card-7">
+                <button type="button" class="button btn1" style="background-color: #f8f9fa;">Light</button>
+                <button type="button" class="button btn2" style="background-color: #f8f9fa;">Light</button>
+                <button type="button" class="button btn3" style="background-color: #f8f9fa;">Light</button>
+                <button type="button" class="button btn2 hover" style="background-color: #f8f9fa;">Light Hover</button>
+                <button type="button" class="button btn3 disabled" style="background-color: #f8f9fa;">Light Disabled</button>
+            </div>  
+            <div class="card card-8">
+                <button type="button" class="button btn1" style="background-color: #343a40;">Dark</button>
+                <button type="button" class="button btn2" style="background-color: #343a40;">Dark</button>
+                <button type="button" class="button btn3" style="background-color: #343a40;">Dark</button>
+                <button type="button" class="button btn2 hover" style="background-color: #343a40;">Dark Hover</button>
+                <button type="button" class="button btn3 disabled" style="background-color: #343a40;">Dark Disabled</button>
+            </div>  
+        </section>
+        <!-- Card End -->
+    </section>  
+
+   
+    
+    
+
+  <script src="script.js"></script>
+
+</body>
+</html>
